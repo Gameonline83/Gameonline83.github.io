@@ -1,1 +1,3 @@
+User-agent: Yandex
 User-agent: #
+Sitemap: https://https://gameonline83.github.io/sitemap.xml
