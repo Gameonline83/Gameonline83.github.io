@@ -42,6 +42,13 @@ html, body {
   margin-left: -10px;
   margin-right: -10px;
 }
+.listpage{
+	height: 44px;
+	width: 558px;
+	margin-left: 10px;
+	margin-top: -15px;
+}
+
 .rsa{
 	margin-left: 10px;
 	margin-right: 10px;
@@ -211,6 +218,16 @@ html, body {
 .card_body_footer{
     margin-top:10px;
 }
+.card_character_flex_container{
+  display:flex;
+  flex: 0 0 37%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card_character_content{
+  display:flex;
+  margin-bottom: 10px;
+}
 .card_character_container:not(:last-child){
   margin-right: 10px;
 }
@@ -279,6 +296,9 @@ html, body {
 
 /* Start:/bitrix/templates/minimal_green/local/css/media.css?15597144843726*/
 @media (max-width: 1199px){
+.card_character_flex_container{
+        flex: 0 0 45%;
+}
     .card_buttons .play_now{
         font-size: 10px;
         display: inline-block;
@@ -302,6 +322,9 @@ html, body {
 }
 
 @media (max-width: 991px){
+    .card_character_flex_container{
+        flex: 0 0 62%;
+    }
     .card_buttons{
         flex-wrap: wrap;
     }
@@ -363,6 +386,9 @@ html, body {
     .card_character_container:not(:last-child) {
         margin-right: 25px;
     }
+    .card_character_flex_container {
+        flex: 0 0 55%;
+    }
     .main_block {
         width: 20px;
         height: 6px;
@@ -373,6 +399,10 @@ html, body {
     }
 }
 @media (max-width: 495px){
+    .card_character_flex_container {
+        flex: 0 0 100%;
+        justify-content: space-between;
+    }
     .card_body_header{
         flex-wrap: wrap;
     }

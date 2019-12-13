@@ -46,15 +46,15 @@
   right: -30px;
 }
 .menu-main li {
-  display: inline-block;
-  margin-right: -4px;
+	display: inline-block;
+	margin-right: -4px;
 }
 .menu-main a {
   text-decoration: none;
   display: inline-block;
   padding: 15px 30px;
   font-family: 'PT Sans Caption', sans-serif;
-  color: white;
+  color: #FFFFFF;
   transition: .3s linear;
 }
 .menu-main a.current,
@@ -94,9 +94,12 @@
 	padding: 3px 6px;
 	font-family: 'PT Sans Caption', sans-serif;
 	color: #CCCCCC;
-	border: 1px solid #CCCCCC;
 	border-radius: 15%;
 	font-size: 12px;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
 }
 .bot-navigation a:hover {
 	text-decoration: none;
