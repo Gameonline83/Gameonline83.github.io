@@ -22,6 +22,11 @@
 <url>
   <loc>https://gameonline83.github.io/index.html</loc>
   <lastmod>2019-12-08T19:00:05+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://gameonline83.github.io/page_2b.html</loc>
+  <lastmod>2019-12-14T02:00:05+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 </urlset>
