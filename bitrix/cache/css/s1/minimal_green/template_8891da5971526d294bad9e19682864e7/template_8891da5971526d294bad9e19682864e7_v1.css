@@ -48,6 +48,12 @@ html, body {
 	margin-left: 10px;
 	margin-top: -15px;
 }
+.main_frame frame{
+	width: 558px;
+    heidth: 316px;
+	background-color: transparent;
+    border: none;
+}
 
 .rsa{
 	margin-left: 10px;
@@ -465,7 +471,6 @@ html, body {
         width: 100%;
     }
 }
-
 /* End */
 /* /bitrix/templates/minimal_green/local/css/bootstrap-grid.min.css?155971448434243 */
 /* /bitrix/templates/minimal_green/local/css/bootstrap.min.css?1559714484144877 */
