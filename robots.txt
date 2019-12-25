@@ -1,4 +1,4 @@
 User-agent:*
 Disallow:
 Sitemap: https://https://gameonline83.github.io/sitemap.xml
-Sitemap: https://https://game-mmo-online.site/sitemap.xml
+Sitemap: http://https://game-mmo-online.site/sitemap.xml
