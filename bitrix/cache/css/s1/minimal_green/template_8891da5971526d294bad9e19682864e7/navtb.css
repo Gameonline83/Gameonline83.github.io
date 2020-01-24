@@ -70,7 +70,7 @@
 .menu-main a {display: block;}
 }
 .bot-navigation {
-	font-size: 12px;
+	font-size: 14px;
 	color: #fff;
 	position: relative;
 	height: 30px;
@@ -80,14 +80,20 @@
 	width: 50%;
 	margin-top: -10px;
 	margin-bottom: 15px;
+	font-style: normal;
+	font-weight: bolder;
 }
 .bot-navigation a{
-	padding: 3px 6px;
 	font-family: 'PT Sans Caption', sans-serif;
 	border: 1px solid #CCCCCC;
 	border-radius: 15%;
 	color: #CCCCCC;
+
 	transition: .3s linear;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
 	}
 .bot-navigation span {
 	text-decoration: none;
@@ -95,11 +101,12 @@
 	font-family: 'PT Sans Caption', sans-serif;
 	color: #CCCCCC;
 	border-radius: 15%;
-	font-size: 12px;
+	font-size: 14px;
 	border-top-color: #CCCCCC;
 	border-right-color: #CCCCCC;
 	border-bottom-color: #CCCCCC;
 	border-left-color: #CCCCCC;
+	font-weight: bolder;
 }
 .bot-navigation a:hover {
 	text-decoration: none;
