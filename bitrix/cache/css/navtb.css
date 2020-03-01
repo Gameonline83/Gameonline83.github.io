@@ -1,0 +1,116 @@
+.listpage {
+}
+.top-menu {
+	position: relative;
+	margin: 0 30px;
+	box-shadow:
+	inset 1px 0 0 rgba(255,255,255,.1), 
+    inset -1px 0 0 rgba(255,255,255,.1),;
+	}
+.top-menu:before,
+.top-menu:after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  width: 100%;
+  height: 3px;
+}
+.top-menu:before {
+  top: 0;
+}
+.top-menu:after {
+  bottom: 0;
+  border-top: 1px dashed rgba(255,255,255,.2);
+}
+.menu-main {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.menu-main:before, 
+.menu-main:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 0;
+  top: 8px;
+  transform: rotate(360deg);
+  z-index: -1;
+}
+.menu-main:before {
+  left: -30px;
+}
+.menu-main:after {
+  right: -30px;
+}
+.menu-main li {
+	display: inline-block;
+	margin-right: -4px;
+}
+.menu-main a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #FFFFFF;
+  transition: .3s linear;
+}
+.menu-main a.current,
+.menu-main a:hover {background: rgba(0,0,0,.2);}
+@media (max-width: 680px) {
+.top-menu {margin: 0;}
+.menu-main li {
+  display: block;
+  margin-right: 0;
+}
+.menu-main:before, 
+.menu-main:after {content: none;}
+.menu-main a {display: block;}
+}
+.bot-navigation {
+	font-size: 14px;
+	color: #fff;
+	position: relative;
+	height: 30px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	width: 50%;
+	margin-top: -10px;
+	margin-bottom: 15px;
+	font-style: normal;
+	font-weight: bolder;
+}
+.bot-navigation a{
+	font-family: 'PT Sans Caption', sans-serif;
+	border: 1px solid #CCCCCC;
+	border-radius: 15%;
+	color: #CCCCCC;
+
+	transition: .3s linear;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	}
+.bot-navigation span {
+	text-decoration: none;
+	padding: 3px 6px;
+	font-family: 'PT Sans Caption', sans-serif;
+	color: #CCCCCC;
+	border-radius: 15%;
+	font-size: 14px;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	font-weight: bolder;
+}
+.bot-navigation a:hover {
+	text-decoration: none;
+	border: 1px solid #CCCCCC;
+	background: #000000; 
+	color: #fff;
+}
