@@ -29,7 +29,7 @@ html, body {
 }
 @font-face {
     font-family:"Roboto-Regular";
-    src:url(../../../../../templates/minimal_green/local/fonts/Roboto/Roboto-Regular.ttf);
+    src:url(../../../../../templates/minimal_greenlocal/fonts/Roboto/Roboto-Regular.ttf);
 }
 @font-face {
     font-family:"Roboto-Condensed-Bold";
