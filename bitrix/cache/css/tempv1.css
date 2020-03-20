@@ -1,6 +1,4 @@
-/* Start:/bitrix/templates/minimal_green/local/css/bootstrap-grid.min.css?155971448434243*/
-/*!
- * Bootstrap Grid v4.0.0 (https://getbootstrap.com)
+/* Bootstrap Grid v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -35,12 +33,23 @@ html, body {
     font-family:"Roboto-Condensed-Bold";
     src: url(../../../../../templates/minimal_green/local/fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf);
 }
-h1 {
+.main_name{
 	color: #FFFFFF;
 	font-family: "Comic Sans MS";
 	line-height: normal;
 	font-size: 34px;
 	font-variant: normal;
+	font-weight: normal;
+}
+h1 {
+	font-family: 'Comfortaa', cursive;
+	font-weight: normal;
+	padding-bottom: 10px;
+	font-size: 30px;
+}
+.main_tit_page_p {
+	font-family: 'Comfortaa', cursive;
+	line-height: normal;
 }
 .row{
   margin-left: -10px;
